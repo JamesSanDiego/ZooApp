@@ -1,0 +1,90 @@
+/*page2.css*/
+@media(orientation: landscape){
+  .zooData{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "leftSide rightSide"
+
+    ;
+  }
+}
+
+@media(orientation: portrait){
+  .zooData{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "leftSide rightSide"
+    ;
+  }
+}
+
+.zooData{
+  background-color: #9BD770;
+}
+
+#leftSide{grid-area: leftSide;margin:auto}
+#rightSide{grid-area: rightSide;}
+
+#zooName{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 14px;
+}
+
+#desc{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 14px;
+
+}
+#zooCity{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 14px;
+
+}
+
+#zip{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 14px;
+
+}
+
+#zooID{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 14px;
+
+}
+
+#header{
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  background-color: #67A838;
+  margin: 0;
+
+}
+
+#footer{
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  margin: 0;
+
+}
+
+.foot{
+  background-color: #375F1B;
+}
+
+a{
+  text-decoration: none;
+  background-color: #1B3409;
+  color: white;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size: 1em;
+  padding: 2px;
+}
+
+
+

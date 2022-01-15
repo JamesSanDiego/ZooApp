@@ -1,0 +1,70 @@
+/*sandiegj.css*/
+h3{
+  text-align: center;
+}
+
+header{
+  margin:0;
+}
+
+@media(orientation: landscape){
+  .zooMain{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+    "leftSide rightSide"
+    ;
+  }
+}
+
+.zooMain{
+  background-color: #9BD770;
+}
+
+#leftSide{grid-area: leftSide;}
+#rightSide{grid-area: rightSide;}
+
+#header{
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  background-color: #67A838;
+
+}
+
+#footer{
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  margin: 0;
+
+}
+
+.foot{
+  background-color:#375F1B;
+}
+
+
+ul{
+  list-style-type: none;
+}
+
+.zooLink{
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  text-decoration: none;
+  
+}
+
+.zooLink:visited{
+  color:black;
+
+}
+
+.zooLink:active{
+  color:black;
+  
+}
+
+.zooLink:link{
+  color:black;
+  
+}
